@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sea Makeup - Store</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;500;600;700&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Custom Style untuk Sea Makeup Palette -->
+  <style>
+    :root {
+      --primary-color: #E299B3; 
+      --secondary-color: #F8E1EB; 
+      --accent-color: #9C526B; 
+      --heading-color: #4A2C36;
+    }
+
+    /* Override Navigasi agar tidak biru */
+    .navmenu a, .navmenu a:focus { color: var(--accent-color) !important; }
+    .navmenu a:hover, .navmenu .active { color: var(--heading-color) !important; }
+
+    .header { background: rgba(248, 225, 235, 0.9) !important; } /* Putih Pink */
+    .hero { background: var(--primary-color) !important; }
+    .btn-getstarted, .btn-get-started, .buy-btn, .scroll-top {
+      background: var(--accent-color) !important;
+      border: 2px solid var(--accent-color) !important;
+      color: #fff !important;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename" style="color: #9C526B;">Sea Makeup</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#testimony">Testimony</a></li>
+          <li><a href="#store">Store</a></li>
+          <li><a href="#tips-and-trick">Tips and Trick</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted" href="#about">Get Started</a>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Makeup for All Skin Types</h1>
+            <p>BPOM | Cruelty Free | Locally Curated</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Official Instagram</a>
+              <a href="https://www.instagram.com/seamakeup.id/" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Click Here</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/products.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                    Sea Makeup hadir sebagai solusi kecantikan bagi mereka yang memiliki kulit sensitif dan rentan berjerawat. Kami percaya bahwa makeup tidak seharusnya memperburuk kondisi kulit, melainkan melengkapinya dengan nutrisi yang tepat.
+                </p>
+            <ul>
+                <li><i class="bi bi-check2-circle"></i> <span>Formulasi khusus <strong>Non-Comedogenic</strong> yang aman untuk pori-pori.</span></li>
+                <li><i class="bi bi-check2-circle"></i> <span>Diperkaya kandungan skincare seperti Salicylic Acid dan Ceramide.</span></li>
+                <li><i class="bi bi-check2-circle"></i> <span>Hasil akhir natural yang tahan lama untuk penggunaan sehari-hari.</span></li>
+            </ul>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                    Berawal dari keinginan untuk menciptakan produk "Acne-Safe Makeup", Sea Makeup terus berinovasi menghadirkan rangkaian produk mulai dari base makeup hingga pembersih wajah. Kami berkomitmen memberikan kualitas premium dengan harga yang tetap ramah di kantong mahasiswa dan remaja Indonesia.
+                </p>
+            <a href="#product" class="read-more"><span>Lihat Koleksi Kami</span><i class="bi bi-arrow-right"></i></a>
+            </div> 
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Product Section -->
+    <section id="product" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Product</h2>
+        <p>Koleksi kosmetik yang dirancang khusus untuk mempercantik sekaligus merawat kulitmu.</p>
+      </div>
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Lip Mousse</li>
+            <li data-filter=".filter-app">Skin Tint</li>
+            <li data-filter=".filter-product">Brow Gel</li>
+            <li data-filter=".filter-branding">Silk Cushion</li>
+          </ul>
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/lipmousse.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Lip Mousse</h4>
+                <p>By Sea Makeup</p>
+                <a href="assets/img/portfolio/portfolio-1.webp" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="#" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimony Section -->
+    <section id="testimony" class="team section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimony</h2>
+        <p>Apa kata mereka yang sudah membuktikan keajaiban Sea Makeup.</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/maliaarumsari.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>amaliaarumsari</h4>
+                <span>Acne Clear Micellar Water</span>
+                <p>Sebenernya aku review celansing oilnya sea makeup disini ya. Baru pernah coba cleansing oil, cocok sih pakai merk ini. Murab bgt dibanding merk lain. Tapi ya memang ga maksimal hasilnya. Gabisa ilangin makeup waterproof sperti lipstik masih harus pakai oil makeup remover</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/mochiroll.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>mochiroll</h4>
+                <span>Acne Cover & Smooth Two Way Cake Pressed Powder</span>
+                <p>Aku pake ini buat bikin bright undereye! kalo di aku dia bantu aku set foundie juga sih, aku bukan tipe yang pake concealer jadi dia ngebantu banget buat bikin cerah. Cons nya paling dia powdernya fragile banget, karena lembut banget kali ya... tapi aku suka sama feelsnya 👏🏻</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Store Section -->
+    <section id="store" class="pricing section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Store</h2>
+        <p>Dapatkan harga terbaik untuk paket kecantikan pilihanmu.</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Shopee</h3>
+              <h4>Official<span> Store</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Sea Makeup Official Store</span></li>
+                <li><i class="bi bi-check"></i> <span>Voucher Diskon Toko</span></li>
+                <li><i class="bi bi-check"></i> <span>Gratis Ongkir Ekstra</span></li>
+                <li><i class="bi bi-check"></i> <span>Bayar di Tempat (COD)</span></li>
+                <li><i class="bi bi-check"></i> <span>Pilihan Produk Lengkap</span></li>
+              </ul>
+              <a href="https://shopee.co.id/seamakeup" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Tokopedia</h3>
+              <h4>Official<span> Store</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Sea Makeup Official Store</span></li>
+                <li><i class="bi bi-check"></i> <span>Promo Bebas Ongkir</span></li>
+                <li><i class="bi bi-check"></i> <span>Cashback GoPay Coins</span></li>
+                <li><i class="bi bi-check"></i> <span>Cicilan 0% Tersedia</span></li>
+                <li><i class="bi bi-check"></i> <span>Kualitas Terjamin Original</span></li>
+              </ul>
+              <a href="https://www.tokopedia.com/seamakeupid?utm_campaign=Shop-221997025-16572040-060724-contextual_image-halaman_toko-LSfHao&utm_source=salinlink&utm_medium=share&_branch_match_id=1497612754667169590&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWDwksTYlyt8w38E6yrytKTUstKsrMS49PKsovL04tsnXOKMrPTQUAVFNhkzwAAAA%3D" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Sociolla</h3>
+              <h4>Official<span> Store</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Sea Makeup Official Store</span></li>
+                <li><i class="bi bi-check"></i> <span>Kumpulkan SOCO Points</span></li>
+                <li><i class="bi bi-check"></i> <span>Jaminan 100% Authentic</span></li>
+                <li><i class="bi bi-check"></i> <span>Flash Delivery Available</span></li>
+                <li><i class="bi bi-check"></i> <span>Beauty Review Terpercaya</span></li>
+              </ul>
+              <a href="https://www.sociolla.com/brand/sea-makeup" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tips and Trick Section -->
+    <section id="recent-blog-posts" class="recent-blog-posts section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tips and Trick Section</h2>
+        <p>Rahasia tampil cantik dan kulit tetap sehat bersama Sea Makeup</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/pict1.jpeg" class="img-fluid" alt="Acne Care Routine">
+                <span class="post-date">Sea Makeup</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Which complexion is best for you?</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Admin</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Tips & Trick</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="https://www.instagram.com/p/DWtX9X5k6UB/" class="readmore stretched-link" target="_blank"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/pict2.jpeg" class="img-fluid" alt="Double Cleansing Guide">
+                <span class="post-date">Sea Makeup</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Pick your make up routine!</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Admin</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Skincare Guide</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="https://www.instagram.com/p/DVqbWxbkxFe/" class="readmore stretched-link" target="_blank"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div><!-- End post item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-item position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/pict3.jpeg" class="img-fluid" alt="Makeup for Beginners">
+                <span class="post-date">Sea Makeup</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Base make up phases</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Admin</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Recommendation</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="https://www.instagram.com/p/DRPL0vhEwX4/" class="readmore stretched-link" target="_blank"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div><!-- End post item -->
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Sea Makeup</strong> <span>All Rights Reserved</span></p>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
